@@ -11,3 +11,6 @@ ENV/
 
 # Output images / cache
 .cache/
+.tokens_cache.pkl
+*.pkl
+
