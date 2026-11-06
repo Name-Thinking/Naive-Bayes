@@ -1,4 +1,16 @@
+<div align="center">
+
 # ⭐ ระบบวิเคราะห์ความรู้สึกและทำนายระดับดาวรีวิวร้านอาหารด้วย Naive Bayes (Wongnai Reviews Edition)
+
+![Python](https://img.shields.io/badge/PYTHON-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-MULTINOMIAL%20NB-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/WONGNAI%20REVIEWS-HUGGINGFACE-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+<br/>
+![PyThaiNLP](https://img.shields.io/badge/PYTHAINLP-NEWMM-0052CC?style=for-the-badge)
+![WordCloud & Seaborn](https://img.shields.io/badge/VISUALIZATION-HEATMAP%20%26%20WORDCLOUD-009688?style=for-the-badge)
+![Accuracy](https://img.shields.io/badge/TEST%20ACCURACY-52.68%25%20(40K%20REVIEWS)-2EA44F?style=for-the-badge&logo=checkmarx&logoColor=white)
+
+</div>
 
 โครงงานการประยุกต์ใช้ **Multinomial Naive Bayes (`alpha=1.0` Laplace Smoothing)** สำหรับวิเคราะห์ความรู้สึก (Sentiment Analysis) และทำนายระดับดาว (**1 ถึง 5 ดาว**) จากชุดข้อมูลรีวิวร้านอาหารภาษาไทย **`Highgroundbkk/wongnai_reviews`** บน Hugging Face จำนวน **40,000 รีวิว** พร้อมจำลองโจทย์คำนวณ Naive Bayes บนกระดานแบบละเอียดทุกขั้นตอน:
 
@@ -114,3 +126,4 @@ d:\NB\
 ├── .gitignore                  # ตั้งค่าไฟล์ที่ยกเว้นการติดตามใน Git
 └── README.md                   # เอกสารอธิบายโครงงาน ทฤษฎี และสรุปผลการทดลอง
 ```
+
